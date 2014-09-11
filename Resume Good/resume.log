@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 17:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -61,6 +61,14 @@ Overfull \hbox (5.93146pt too wide) in alignment at lines 90--90
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmti10!
+Missing character: There is no € in font cmti10!
+Missing character: There is no ™ in font cmti10!
+
+Overfull \hbox (80.91446pt too wide) in alignment at lines 97--97
+[] []
+ []
+
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -83,7 +91,7 @@ ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 78533 bytes).
+Output written on resume.pdf (2 pages, 79685 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
