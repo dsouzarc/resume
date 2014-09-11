@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 18:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -58,9 +58,6 @@ Overfull \hbox (5.93146pt too wide) in alignment at lines 97--97
 [] []
  []
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 
 Overfull \hbox (5.77432pt too wide) in alignment at lines 105--105
 [] []
