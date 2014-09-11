@@ -1,0 +1,100 @@
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{shading}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Ryan C. D'souza}  & (609) 915 - 4930\\
+github.com/dsouzarc &  dsouzarc@gmail.com\\
+quora.com/Ryan-Dsouza-1 & linkedin.com/in/dsouzarc\\
+\end{tabular*}
+
+\vspace{0.1in}
+\ressubheading{Description \& Technologies} {}{An aspiring 17 year old looking for a career in Computer Science, Finance, and Economics} {}
+
+\begin{description}
+
+\item[Java:]GUI/SWING, AWT, Java DataBase, SQL, File I/O, MultiThreading, Network (POST and GET Requests), Applets, Apache Commons Library
+
+\item[Android:]DataBase/SQL, Animations, MultiThreading \& Asynchronous Tasks, Networking, JSON Requests/Parsing, Notifications, Google Glass, Widgets, Services, BroadcastReceivers
+
+\item[Key Words:]Bloomberg API, Facebook API, Parse library, ZXING Library (Image Processing), C++, AppleScript, LaTex, Terminal, VBA, Mac OSX, Linux, Bash
+
+\item[Education:]Princeton High School Class of 2015, HackPrinceton 2014S, PennApps 2014S, PClassic 2014S, PClassic 2013F, Project Euler, Quora, University of Michigan Intro. to Finance (Coursera)
+
+\end{description}
+
+%\resheading{Projects}
+\begin{description} \item[Projects] \end{description}
+
+
+\begin{itemize}
+
+\item 
+	\ressubheading{App Searcher}{Android Application}{Google Play's fastest Android equivalent of iOS's built-in application searcher.}{}
+	\begin{itemize}
+		\resitem{Uses optimized algorithms and multithreading to load the user's list of installed apps four-five seconds faster then the competition's current load time. Speed is important when you want to open an app quickly.}
+		\resitem{Memory Efficient: Efficiently designed to use 80\% less memory then its competition}
+		\resitem{App begins running on system boot and can be opened from either the Notification Bar or Chat Head. Runs silently and quietly in the Notification Bar, just click on it to open. Chat Head drawn on screen can be moved anywhere in the screen and clicking on it will immediately open AppSearcher.}
+	\end{itemize}
+
+\item
+	\ressubheading{Stock Calculator}{Java Desktop App (GUI) and Android Application}{Uses an algorithm I wrote to determine whether}{a stock's price will increase in the future.\space\space\space\space\space\space\space\space\space}
+	\begin{itemize}
+		\resitem{The algorithm downloads and takes into account the company’s P/E and Beta Ratio, Income Statement, Balance Sheet, Cash Flow, and historical trading data.}
+		\resitem{Parses Nasdaq Exchange to get real time quote of a stock the user enters (as opposed to 15 minute delay that other apps give)}
+	\end{itemize}
+
+
+\item
+	\ressubheading{QEvent Share}{Android Application}{Streamlines event creation and sharing.}{}
+	\begin{itemize}
+		\resitem{Shows all events the user has for the week in a week view beginning on the current date, as opposed to beginning on Sunday like all other calendar apps}
+		\resitem{Easily add new events by clicking on the date title of the event’s date and setting the time}
+		\resitem{Unique feature to share the event using QRCodes. Simply click on an already created event (or newly created event) and the option to share it via QR Code pops up. On the WeekView default screen, there is the option to Import a QRCode. When the QRCode is scanned, the event information is showed to the user who then can edit the event before saving it.}
+	\end{itemize}
+
+\item
+	\ressubheading{PHS PowerSchool}{Android Application}{Application that streamlines a repetitive process for all PowerSchool users}{}
+	\begin{itemize}
+		\resitem{Automatically logs student into PowerSchool, reducing a two minute log-in process to less then 30 seconds and eliminating the need for typing and clicking}
+		\resitem{GPA calculator that calculates the Weighted and Unweighted GPA of the current year}
+		\resitem{Ability to easily copy important information about several assignments to the clipboard, which aides in the creation of a To-Do list for seeing teachers about certain assignments}
+	\end{itemize}
+\end{itemize}
+\end{document}
