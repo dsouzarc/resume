@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 17:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -54,12 +54,12 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
 
-Overfull \hbox (2.79266pt too wide) in alignment at lines 80--80
+Overfull \hbox (2.79266pt too wide) in alignment at lines 81--81
 [] []
  []
 
 
-Overfull \hbox (5.93146pt too wide) in alignment at lines 88--88
+Overfull \hbox (5.93146pt too wide) in alignment at lines 89--89
 [] []
  []
 
@@ -81,14 +81,14 @@ Here is how much of TeX's memory you used:
  3788 multiletter control sequences out of 15000+600000
  7340 words of font info for 26 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 21i,7n,19p,396b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 21i,7n,19p,396b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 78757 bytes).
+Output written on resume.pdf (2 pages, 79158 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
