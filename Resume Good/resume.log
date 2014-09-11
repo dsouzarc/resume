@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 17:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 SEP 2014 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -47,19 +47,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 41.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
 
-Overfull \hbox (2.79266pt too wide) in alignment at lines 71--71
+Overfull \hbox (2.79266pt too wide) in alignment at lines 80--80
 [] []
  []
 
 
-Overfull \hbox (5.93146pt too wide) in alignment at lines 79--79
+Overfull \hbox (5.93146pt too wide) in alignment at lines 88--88
 [] []
  []
 
@@ -88,7 +88,7 @@ ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 76896 bytes).
+Output written on resume.pdf (2 pages, 78757 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
