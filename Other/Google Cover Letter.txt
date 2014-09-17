@@ -1,0 +1,11 @@
+Dear Hiring Manager,
+
+	I understand your time is valuable. I’ll keep this to three bullet points. 	
+	I’m interested in becoming a Software Engineering Intern at Google because of my passion for Computer Science. 
+	While an intern, I plan on learning as much as I can about artificial intelligence and natural language processing, my two main interests in Computer Science. 
+	I’d also love to work on making the Android development tutorials much more beginner friendly and work on adding additional features to the Android SDK.
+	
+Thank you for your time
+
+Ryan D’souza
+
