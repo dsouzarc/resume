@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  22 SEP 2014 17:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  22 SEP 2014 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -93,12 +93,12 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
 
-Overfull \hbox (5.93146pt too wide) in alignment at lines 99--99
+Overfull \hbox (5.93146pt too wide) in alignment at lines 98--98
 [] []
  []
 
 
-Overfull \hbox (5.77432pt too wide) in alignment at lines 115--115
+Overfull \hbox (5.77432pt too wide) in alignment at lines 114--114
 [] []
  []
 
@@ -121,7 +121,7 @@ Here is how much of TeX's memory you used:
 public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 78367 bytes).
+Output written on resume.pdf (1 page, 78368 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
