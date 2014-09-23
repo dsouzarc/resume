@@ -1,0 +1,125 @@
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{10in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{shading}
+\usepackage{color}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+%\color{cyan}
+\textbf{\Large Ryan C. D'souza}  & (609) 915 - 4930\\
+linkedin.com/in/dsouzarc &  dsouzarc@gmail.com\\
+quora.com/Ryan-Dsouza-1 & github.com/dsouzarc\\
+\end{tabular*}
+
+\vspace{0.1in}
+%An aspiring 17 			year old looking for a career in Computer Science, 				Finance, and Economics
+\ressubheading{Description \& Technologies} {}{18 and pursuing a 	C.S. degree with a focus in Artificial Intelligence and 			Natural Language Processing} {}
+
+\begin{description}
+
+\item[Java:]GUI/SWING, AWT, Java DataBase, SQL, File I/O, 			Advanced MultiThreading and Concurrency, Network (POST and 		GET Requests), Applets, Apache Commons Library
+
+\item[Android:]DataBase/SQL, Animations, MultiThreading \& 			Asynchronous Tasks, Networking, JSON Requests/Parsing, 			Notifications, Google Glass, Widgets, Services, 					BroadcastReceivers
+
+%\item[Key Words:]Bloomberg API, Facebook API, Parse library, 			ZXING Library (Image Processing), C++, AppleScript, 				LaTex, Terminal, VBA, Mac OSX, Linux, Bash, Git
+
+\item[Education:]HackPrinceton 2014S, PennApps 2014S/F, PClassic 	2013S/2014F, Project Euler, Quora, Princeton High School 			Class of 2015, University of Michigan Intro. to Finance 			(Coursera), Java for Business Applications(Mercer College), 	Princeton University Intro. to Algorithms(Coursera)
+
+\end{description}
+
+%\resheading{Work Experience}
+\begin{description} 
+	\item[Work Experience]  
+\end{description}
+
+\begin{itemize}
+\item
+	\ressubheading{Present}{February 2014 - Present}
+		{Princeton Tiger Labs backed start-up for real-time 				sharing videos} {Android Developer}
+		\begin {itemize}
+		\resitem{Assisted Senior Android Developer in 						developing a custom recording app to record videos 				while simultaneously uploading them to Amazon Web 				Services}
+		\resitem{Built a large portion of the UI and login code 			for the app}
+		\end{itemize}
+\end{itemize}
+\begin{itemize}
+	\item
+		\ressubheading{Javelin Capital Markets LLC.}{July - 					September 2014}
+			{High frequency trading platform for Interest Rate 				Swaps}{Paid Software Engineering Intern}
+	\begin{itemize}
+		\resitem{Developed a program to efficiently stream 					thousands of quotes per second to an Excel 						spreadsheet for price modeling}
+		\resitem{Built several automated test systems to 						continuously test various platform features under 				different conditions}
+	\end{itemize}
+\end{itemize}
+
+%\resheading{Projects}
+\begin{description} 
+	\item[Projects] 
+\end{description}
+
+\begin{itemize}
+
+\item
+	\ressubheading{Stock Calculator}{Java Desktop App (GUI) and 		Android Application}{Uses an algorithm I wrote to 				determine whether}{a stock's price will increase in the 		future.\space\space\space\space\space\space\space\space			\space}
+	\begin{itemize}
+		\resitem{The algorithm downloads and takes into account 			the company's P/E and Beta Ratio, Income Statement, 			Balance Sheet, Cash Flow, and historical trading 					data.}
+		\resitem{Parses Nasdaq to get real time quote of a 					stock (as opposed to other apps' 15 min. delay)}
+	\end{itemize}
+
+\item
+	\ressubheading{Bring Me Food}{iOS and Android Application}
+		{A refined version of Uber for crowd-sourcing the 				delivery of food.}{}
+	\begin{itemize}
+		\resitem{Client will choose items from a restaurant, submit the order, and all the drivers who signed up, will get a notification about the live order. Drivers can then claim the order \& send updates.}
+		\resitem{The client will get updates via Notifications from the driver. A time-based fee will be charged on delivery.}
+	\end{itemize}
+	
+\item
+	\ressubheading{Facebook Message Analyzer}
+		{Android Application}{Analyzes a user's Facebook 					messages in private chats and group messages}{(last 				5000 messages)\space\space\space\space\space\space}
+	\begin{itemize}
+		\resitem{Shows most oftenly used words, average 						response time, and average word and sentence 					length}
+		\resitem{Analyzes how people respond in a group chat 					(ex. if a girl sends a message, how many guys 					respond right away compared to when a guy sends a 				message}
+		\resitem{In implementation under guidance of a 						Princeton University Professor: How emotions change
+			throughout the day and week using Natural Language 				Processing}
+	\end{itemize}
+\end{itemize}
+
+\begin{description}
+	\item[Personal:]Eagle Scout (Eagle Project over 572 hours), 		Red Cross CPR and First Aid certified, avid hiker, 				white water rafter, and skier, Ultimate Frisbee and 				table tennis lover
+\end{description}
+\end{document}
